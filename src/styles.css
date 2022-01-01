@@ -4,8 +4,7 @@ h1 {
 }
 
 h2 {
-  font-size: 35px;
-  line-height: 0px;
+  font-size: 30px;
   text-align: left;
   opacity: 0.7;
 }
@@ -36,9 +35,9 @@ ul {
 
 li {
   font-weight: 100;
-  font-size: 17px;
+  font-size: 16px;
   list-style: none;
-  line-height: 24px;
+  line-height: 23px;
   text-align: center;
   display: block;
   margin: 0;
@@ -50,7 +49,7 @@ li {
 }
 
 .current-temp {
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .units {
@@ -62,8 +61,7 @@ li {
 body {
   background-color: hsl(173, 16%, 89%);
   border: 1px solid hsl(180, 1%, 32%);
-  padding: 9px;
-  padding-left: 7px;
+  padding-left: 10px;
   margin: 20px auto;
   font-family: sans-serif;
   border-radius: 10px;
