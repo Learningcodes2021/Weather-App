@@ -1,9 +1,9 @@
 h1 {
-  line-height: 18px;
-  padding: 1px;
+  line-height: 20px;
 }
 
 h2 {
+  line-height: 0px;
   font-size: 30px;
   text-align: left;
   opacity: 0.7;
@@ -37,7 +37,7 @@ li {
   font-weight: 100;
   font-size: 16px;
   list-style: none;
-  line-height: 23px;
+  line-height: 22px;
   text-align: center;
   display: block;
   margin: 0;
@@ -49,7 +49,7 @@ li {
 }
 
 .current-temp {
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .units {
@@ -70,6 +70,6 @@ body {
 
 small {
   position: relative;
-  top: 37px;
+  top: 36px;
   left: 60px;
 }
