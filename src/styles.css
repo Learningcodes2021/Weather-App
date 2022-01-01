@@ -4,7 +4,7 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 35px;
   line-height: 0px;
   text-align: left;
   opacity: 0.7;
@@ -24,39 +24,44 @@ h4 {
   opacity: 0.7;
 }
 
-#icon {
-  position: relative;
-  bottom: 18px;
-  height: 30px;
-  width: 30px;
+icon {
+  margin-right: 5px;
+  height: 7px;
+  width: 7px;
 }
 
 ul {
+  list-style: none;
+  text-align: center;
   padding: 0;
   margin: 0;
+  display: block;
+  line-height: 16px;
+  font-size: 17px;
+  font-weight: bold;
+  opacity: 0.7;
 }
 
 li {
-  font-weight: 100;
-  font-size: 15px;
+  font-size: 17px;
   list-style: none;
-  line-height: 16px;
+  line-height: 0px;
+  text-align: center;
+  display: block;
   margin: 0;
   opacity: 0.7;
 }
 
 .col-3 {
-  display: inline-flex;
-  padding: 5px;
+  position: relative;
+  right: 5px;
 }
 
 .current-temp {
-  font-size: 45px;
-  text-align: left;
+  font-size: 50px;
 }
 
 .units {
-  text-align: left;
   position: relative;
   left: 52px;
   bottom: 61px;
@@ -65,17 +70,17 @@ li {
 body {
   background-color: hsl(173, 16%, 89%);
   border: 1px solid hsl(180, 1%, 32%);
+  align-self: center;
   padding: 15px;
   padding-left: 15px;
   margin: 20px auto;
-  font-family: sans-serif;
-  border-radius: 20px;
-  max-width: 600px;
+  font-family: PT Mono;
+  border-radius: 10px;
+  max-width: 400px;
 }
 
 small {
-  text-align: center;
   position: relative;
-  top: 33px;
+  top: 37px;
   left: 60px;
 }
