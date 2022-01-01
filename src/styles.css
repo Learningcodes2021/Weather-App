@@ -1,6 +1,6 @@
 h1 {
-  line-height: 20px;
-  padding: 5px;
+  line-height: 18px;
+  padding: 1px;
 }
 
 h2 {
@@ -18,34 +18,27 @@ h3 {
 }
 
 h4 {
-  font-size: 21px;
   line-height: 0px;
+  font-size: 21px;
   text-align: left;
   opacity: 0.7;
 }
 
 icon {
-  margin-right: 5px;
   height: 7px;
   width: 7px;
 }
 
 ul {
-  list-style: none;
-  text-align: center;
   padding: 0;
   margin: 0;
-  display: block;
-  line-height: 16px;
-  font-size: 17px;
-  font-weight: bold;
-  opacity: 0.7;
 }
 
 li {
+  font-weight: 100;
   font-size: 17px;
   list-style: none;
-  line-height: 0px;
+  line-height: 24px;
   text-align: center;
   display: block;
   margin: 0;
@@ -53,8 +46,7 @@ li {
 }
 
 .col-3 {
-  position: relative;
-  right: 5px;
+  display: inline-flex;
 }
 
 .current-temp {
@@ -70,11 +62,10 @@ li {
 body {
   background-color: hsl(173, 16%, 89%);
   border: 1px solid hsl(180, 1%, 32%);
-  align-self: center;
-  padding: 15px;
-  padding-left: 15px;
+  padding: 9px;
+  padding-left: 7px;
   margin: 20px auto;
-  font-family: PT Mono;
+  font-family: sans-serif;
   border-radius: 10px;
   max-width: 400px;
 }
