@@ -1,10 +1,10 @@
 h1 {
   line-height: 20px;
-  padding: 8px;
+  padding: 10px;
 }
 
 h2 {
-  line-height: 0px;
+  line-height: 2px;
   font-size: 30px;
   text-align: left;
   opacity: 0.7;
@@ -71,6 +71,6 @@ body {
 
 small {
   position: relative;
-  top: 37px;
+  top: 38px;
   left: 60px;
 }
