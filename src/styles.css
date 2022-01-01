@@ -4,7 +4,7 @@ h1 {
 }
 
 h2 {
-  line-height: 2px;
+  line-height: 3px;
   font-size: 30px;
   text-align: left;
   opacity: 0.7;
@@ -71,6 +71,6 @@ body {
 
 small {
   position: relative;
-  top: 38px;
+  top: 35px;
   left: 60px;
 }
